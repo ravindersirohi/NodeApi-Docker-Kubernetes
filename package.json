@@ -1,0 +1,19 @@
+{
+  "name": "nodeapi-docker-kubernetes",
+  "version": "1.0.0",
+  "description": "Node Api running on express and docker and kubernetes",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravindersirohi/NodeApi-Docker-Kubernetes.git"
+  },
+  "author": "Ravinder",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

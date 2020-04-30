@@ -1,0 +1,10 @@
+FROM node:alpine
+WORKDIR /app
+EXPOSE 80
+EXPOSE 443
+COPY package.json /app
+COPY package-lock.json /app
+RUN npm install
+
+COPY . /app
+CMD ["npm","start"]
